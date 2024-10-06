@@ -1,5 +1,5 @@
-FROM quay.io/Sathanic666/SATHANIC-MD:latest
-RUN git clone https://github.com/Sathanic666/SATHANIC-MD /root/sathanic666/
-WORKDIR /root/sathanic666/
+FROM quay.io/loki-xer/jarvis-md:latest
+RUN git clone https://github.com/Loki-Xer/jarvis-md /root/Jarvis-md/
+WORKDIR /root/Jarvis-md/
 RUN yarn install --network-concurrency 1
 CMD ["npm", "start"]
