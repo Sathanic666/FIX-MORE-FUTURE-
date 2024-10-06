@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: jarvis-md
+    name: sathanic
     env: node
     branch: main
-    repo: https://github.com/Loki-Xer/jarvis-md.git
+    repo: https://github.com/Sathanic666/SATHANIC.git
     buildCommand: npm install
     startCommand: npm start
     plan: free
