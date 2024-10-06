@@ -1,12 +1,12 @@
 {
-    "name": "Jarvis",
+    "name": "Sathanic-md",
     "version":"1.0.0",
-    "description": "Jarvis Multi Device whatsappbot",
-    "logo": "https://i.imgur.com/PmfMtfa.jpeg",
+    "description": "Sathanic Multi Device whatsappbot",
+    "logo": "https://imgur.com/a/HF9Acul",
     "keywords": ["whatsapp"],
-    "repository": "https://github.com/Loki-Xer/Jarvis",
-    "website": "https://github.com/Loki-Xer/Jarvis",
-    "success_url": "https://github.com/Loki-Xer/Jarvis",
+    "repository": "https://github.com/Sathanic666/SATHANIC",
+    "website": "https://github.com/Sathanic666/SATHANIC",
+    "success_url": "https://github.com/Sathanic666/SATHANIC",
     "stack": "container",
     "env": {
         "BOT_INFO": {
