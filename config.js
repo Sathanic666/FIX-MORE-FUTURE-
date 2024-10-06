@@ -20,7 +20,7 @@ module.exports = {
   SERVER: process.env.SERVER || 'defeat',
   ALIVE_DATA : process.env.ALIVE_DATA || "_*Hy &sender i am alive now*_\n\n_PLATFORM: &platform_\n_RUNTIME : &runtime_\n\n_. type alive to update your alive message_",
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
-  SESSION_ID: process.env.SESSION_ID || 'ZnNneU5_J_A_R_V_I_S_ZcTU=',
+  SESSION_ID: process.env.SESSION_ID || 'ZnNneU5_S_A_T_H_A_N_I_CcTU=',
   LANG: process.env.LANG || 'EN',
   AUTO_REACTION: process.env.AUTO_REACTION || 'true',
   HANDLERS: process.env.HANDLER  || 'null',
@@ -36,7 +36,7 @@ module.exports = {
   SUDO: process.env.SUDO || '917025673121,',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;sᴀᴛʜᴀɴɪᴄ-ᴍᴅ;https://i.imgur.com/VIpl3q5.mp4',
+  BOT_INFO: process.env.BOT_INFO || 'sᴀᴛʜᴀɴ;sᴀᴛʜᴀɴɪᴄ-ᴍᴅ;https://imgur.com/a/sMZz1HP.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'private',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
