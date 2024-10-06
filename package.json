@@ -1,15 +1,15 @@
 {
-    "name": "Jarvis",
+    "name": "Sathanic",
     "version": "0.6.9",
     "description": "A simple WhatsApp Bot Based On WhiskeySockets/Baileys",
     "main": "index.js",
     "scripts": {
-        "start": "pm2 start . --attach --name jarvis",
+        "start": "pm2 start . --attach --name sathanic",
         "stop": "pm2 stop jarvis"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Loki-Xer/Jarvis-md.git"
+        "url": "git+https://github.com/Sathanic666/SATHANIC.git"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
